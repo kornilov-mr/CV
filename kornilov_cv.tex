@@ -1,0 +1,193 @@
+\documentclass[9pt]{article}
+
+\usepackage[T2A]{fontenc}     % внутренняя T2A кодировка TeX
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in]{geometry}
+\pagestyle{empty} % нумерация выкл.
+\addtolength{\textheight}{1.75in}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{color}
+\usepackage{setspace}
+\usepackage{multicol}
+\setlength{\columnsep}{30pt}
+\usepackage{fontawesome}
+\setlength\parindent{0em}
+\usepackage{xcolor}
+
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{mylinkcolor}{HTML}{2200CC}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=mylinkcolor
+}
+
+\begin{document}
+
+\begin{multicols}{2}
+
+\noindent
+\vspace{3em}
+\noindent
+
+{\huge{\textbf{Liudmila Kornilova}}}
+
+Software Developer
+
+Berlin, Germany
+
+\vspace{1em}
+
+\href{https://github.com/kornilova203}{github.com/kornilova203}
+
+\href{https://t.me/kornilova203}{t.me/kornilova203}
+
+kornilova203@gmail.com
+
+\vspace{5em}
+
+{\textbf{Skills}}
+\vspace{0.5em}
+\hrule
+\vspace{1em}
+
+Java, Kotlin, concurrency, database management tools, memory and performance profiling
+
+\vspace{2em}
+{\textbf{Talks}}
+\vspace{0.5em}
+\hrule
+\vspace{1em}
+
+{\textbf{MongoDB Tools Everywhere}}
+
+\color{gray} MongoDB World 2020 \color{black}
+
+\href{https://www.mongodb.com/presentations/mongodb-tools-everywhere}{mongodb.com/presentations/mongodb-tools-everywhere}
+
+\vspace{0.3em}
+
+Max Marcon, Liudmila Kornilova
+
+\vspace{0.3em}
+
+Presented the latest additions and enhancements to the ecosystem of tools for MongoDB including new Java driver.
+
+\vspace{2em}
+{\textbf{Personal Projects}}
+\vspace{0.5em}
+\hrule
+\vspace{1em}
+
+{\textbf{Matlab/Octave support for JetBrains IDEs}}
+
+\href{https://github.com/kornilova203/matlab-IntelliJ-plugin}{github.com/kornilova203/matlab-IntelliJ-plugin}
+
+\vspace{0.3em}
+
+Plugin adds support for Matlab and Octave languages. It provides syntax highlighting, code completion, resolve, refactorings.
+
+\vspace{2em}
+{\textbf{Education}}
+\vspace{0.5em}
+\hrule
+\vspace{1em}
+
+{\textbf{ITMO University}} \color{gray} Saint Petersburg, Russia \color{black}
+
+\color{gray} 2014 - 2018 bachelor \color{black}
+\vspace{0.3em}
+
+Faculty of Software Engineering and Computer Systems
+
+Bachelor’s thesis: Computer Search of Distributed Algorithms
+
+\href{https://github.com/kornilova203/synthesis-of-local-algorithms}{github.com/kornilova203/synthesis-of-local-algorithms}
+
+
+\vspace{2em}
+
+{\textbf{Aalto University}} \color{gray} Helsinki, Finland \color{black}
+
+\color{gray} 2017 - 2018 exchange student \color{black}
+\vspace{0.3em}
+
+Department of Computer Science
+
+
+\columnbreak
+
+\vspace{0.5em}
+
+{\textbf{Experience}}
+
+\vspace{0.5em}
+
+\hrule
+
+\vspace{1em}
+
+{\textbf{JetBrains | Senior Software Developer}}
+
+\color{gray} September 2018 - present | Berlin, Germany \color{black}
+
+\vspace{1.3em}
+\hspace{2.2em} {\textbf{Intellij Core - Indexes team}}
+\begin{itemize}
+    \item Currently working on speeding up IDE startup by eliminating the need for scanning of the virtual file system during launch. This involves working with concurrent code, writing concurrent data structures, optimizing code performance.
+\end{itemize}
+
+\vspace{0.8em}
+\hspace{2.2em} {\textbf{DataGrip team (IDE for databases)}}
+\begin{itemize}
+\item Implemented \href{https://www.jetbrains.com/datagrip/whatsnew/2019-3/#version-2019-3-mongodb-support}{MongoDB integration} which included development of a JDBC driver and support for \href{https://www.jetbrains.com/datagrip/whatsnew/2021-1/#version-2021-1-data-editor}{document data editing}. Re-implemented DML code-generator to make it easy to add new code generator for any database scripting language.
+\item Collaborated with MongoDB team and created a Java driver that executes MongoDB JavaScript commands. Java \(\leftrightarrow\) JS interop.
+
+\href{https://github.com/mongodb-js/mongosh/tree/main/packages/java-shell}{github.com/mongodb-js/mongosh}
+\item Made DataGrip data editor reusable for other IDEs (DataSpell, Kotlin Notebooks). This involved coordinating design decisions across multiple teams and conducting significant code refactoring.
+\item Implemented \href{https://www.jetbrains.com/datagrip/whatsnew/2019-2/#version-2019-2-full-text-search}{Full-text search} that helps users to find data in a database.
+\item Implemented Cassandra and Hive integrations: SQL dialects, resolve, introspection.
+\item Redesigned \href{https://www.jetbrains.com/datagrip/whatsnew/2021-3/#importexport}{import UI} and implemented an ability to \href{https://www.jetbrains.com/datagrip/whatsnew/2022-1/#importexport}{copy multiple tables at the same time}.
+\item Was a mentor to interns. One of my intern's projects was \href{https://www.jetbrains.com/datagrip/whatsnew/2020-3/#version-2020-3-sql-for-mongodb}{SQL for MongoDB}.
+\end{itemize}
+
+\vspace{1em}
+
+{\textbf{Google Summer of Code | Scala Native | Intern}}
+
+\color{gray} May - August 2018 | Remote \color{black}
+
+\href{https://github.com/scala-native/scala-native-bindgen}{github.com/scala-native/scala-native-bindgen}
+
+\vspace{0.3em}
+
+Implemented Scala Native Bindings Generator.
+Bindgen parses a C header file and generates Scala class that allows to call native libs from Scala Native code.
+
+\vspace{1.5em}
+
+{\textbf{Eniram | Software Developer}}
+
+\color{gray} March - May 2018 | Helsinki, Finland \color{black}
+
+\vspace{0.3em}
+
+Developed internal-use software that gives access to data collected from cargo ships and calculates various aggregates.
+
+\vspace{1.5em}
+
+{\textbf{JetBrains | Intern}}
+
+\color{gray} June - August 2017 | Saint Petersburg, Russia \color{black}
+
+\href{https://github.com/kornilova203/FlameViewer}{github.com/kornilova203/FlameViewer}
+
+\vspace{0.3em}
+
+Implemented instrumentation Java profiler and a tool that visualized data collected by different profilers.
+
+
+\end{multicols}
+
+\end{document}             % End of document.
